@@ -1,10 +1,12 @@
 {
   "compilerOptions": {
-    // ...
-    "baseUrl": ".",
+    "baseUrl": "./",
     "paths": {
-      "@/*": ["./src/*"]
-    }
-    // ...
-  }
+      "@/*": ["src/*"]
+    },
+    "skipLibCheck": true,
+    "types": []
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
 }
